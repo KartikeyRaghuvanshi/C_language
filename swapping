@@ -1,0 +1,24 @@
+// swapping of a two number without using the third variable 
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    // Input from the user
+    printf("Enter the value of 'a': ");
+    scanf("%d", &a);
+    printf("Enter the value of 'b': ");
+    scanf("%d", &b);
+
+    // Swapping without a third variable
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    // Display the swapped values
+    printf("After swapping:\n");
+    printf("Value of 'a' is now: %d\n", a);
+    printf("Value of 'b' is now: %d\n", b);
+
+    return 0;
+}
