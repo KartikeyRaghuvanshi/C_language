@@ -1,0 +1,30 @@
+// Program to calculate and print the area of triangle, where the three sides of the triangle is given as input.
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double a, b, c; // Lengths of the three sides
+    double s, area;
+
+    // Input from the user
+    printf("Enter the length of side 'a': ");
+    scanf("%lf", &a);
+    
+    printf("Enter the length of side 'b': ");
+    scanf("%lf", &b);
+    printf("Enter the length of side 'c': ");
+    scanf("%lf", &c);
+
+    // Calculate the semi-perimeter
+    s = (a + b + c) / 2;
+
+    // Calculate the area using Heron's Formula
+    area = sqrt(s * (s - a) * (s - b) * (s - c));
+
+    // Display the area of the triangle
+    printf("The area of the triangle is: %.2lf\n", area);
+
+    return 0;
+}
+
