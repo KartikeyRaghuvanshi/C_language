@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int integer1, integer2;
+    float float1, float2;
+
+    printf("Enter the first integer: ");
+    scanf("%d", &integer1);
+
+    printf("Enter the second integer: ");
+    scanf("%d", &integer2);
+
+    printf("Enter the first floating-point number: ");
+    scanf("%f", &float1);
+
+    printf("Enter the second floating-point number: ");
+    scanf("%f", &float2);
+
+    printf("You entered:\n");
+    printf("Integer 1: %d\n", integer1);
+    printf("Integer 2: %d\n", integer2);
+    printf("Floating-point 1: %.2f\n", float1); // %.2f to display two decimal places
+    printf("Floating-point 2: %.2f\n", float2);
+
+    return 0;
+}
