@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int marks[5];
+    int sum = 0;
+    float percentage;
+
+    printf("Enter the marks for 5 subjects:\n");
+
+    for (int i = 0; i < 5; i++) {
+        printf("Subject %d: ", i + 1);
+        scanf("%d", &marks[i]);
+        sum += marks[i];
+    }
+
+    percentage = (float)sum / 5; // Calculate the percentage
+
+    printf("The sum of marks is: %d\n", sum);
+    printf("The percentage obtained is: %.2f%%\n", percentage);
+
+    return 0;
+}
+
+
+
+// another type or you can say simple way
+
