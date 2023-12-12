@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1;
+    
+    printf("enter the number:");
+    scanf("%d",&num1);
+    
+    switch(num1)
+    {
+        case 1:
+            printf("You selected colour \n Red");
+            break;
+        case 2:
+            printf("You selected colour \n Green");
+            break;
+        case 3:
+            printf("You selected colour \n White");
+            break;    
+        case 4:
+            printf("You selected colour \n Yellow");
+            break;
+        case 5:
+            printf("You selected colour \n Orange");
+            break;    
+    }
+    
+    
+    return 0;
+}
