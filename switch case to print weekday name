@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1;
+    
+    printf("enter the number:");
+    scanf("%d",&num1);
+    
+    switch(num1)
+    {
+        case 1:
+            printf("%d - Monday",num1);
+            break;
+        case 2:
+            printf("%d - Tuesday",num1);
+            break;
+        case 3:
+            printf("%d - Wednesday",num1);
+            break;    
+        case 4:
+            printf("%d - Thursday",num1);
+            break;
+        case 5:
+            printf("%d - Friday",num1);
+            break;
+        case 6:
+            printf("%d - Saturday",num1);
+            break;
+        case 7:
+            printf("%d - Sunday",num1);
+            break;    
+            
+    }
+    
+    
+    return 0;
+}
