@@ -1,0 +1,36 @@
+//Program 1
+#include <stdio.h>
+
+void main()
+{
+    int num,i;
+    
+    printf("enter the number:");
+    scanf("%d",&num);
+    
+    for(;num>=0;num--)
+    {
+        printf("%d ",num);    
+    }
+}
+
+//output of program 1--> if you input 5. (5 4 3 2 1 0)
+
+
+//Program 2
+// #include <stdio.h>
+
+// void main()
+// {
+//     int num,i;
+    
+//     printf("enter the number:");
+//     scanf("%d",&num);
+    
+//     for(i=1;i<=num;i++)
+//     {
+//         printf("%d ",i);    
+//     }
+// }
+
+//output of program 2--> if you input 5. (1 2 3 4 5)
