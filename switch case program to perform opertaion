@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1,num2,result;
+    char c;
+    
+    printf("enter the operation you want to perform by select any one from them '+','-','*','/':\n");
+    scanf("%c",&c);
+    printf("enter the first number:");
+    scanf("%d",&num1);
+    printf("enter the second number:");
+    scanf("%d",&num2);
+    
+    
+    switch(c)
+    {
+        case '+':
+            result = num1+num2;
+            printf("you selected the operation %c on the numbers %d, %d",c,num1,num2);
+            printf("\nresult is %d",result);
+            break;
+        case '-':
+            result = num1-num2;
+            printf("you selected the operation %c on the numbers %d, %d",c,num1,num2);
+            printf("\nresult is %d",result);
+            break;
+        case '*':
+            result = num1*num2;printf("you selected the operation %c on the numbers %d, %d",c,num1,num2);
+            printf("\nresult is %d",result);
+            break;
+        case '/':
+            result = num1/num2;
+            printf("you selected the operation %c on the numbers %d, %d",c,num1,num2);
+            printf("\nresult is %d",result);
+            break;
+    }
+    
+    
+    return 0;
+}
