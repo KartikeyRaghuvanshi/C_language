@@ -9,7 +9,7 @@ void main()
     
     for(i=1;i<=num;i++)
     {
-        if(i/2==0)
+        if(i%2==0)
         {
             sum1 = sum1+i;
             
