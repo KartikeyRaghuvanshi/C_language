@@ -1,0 +1,22 @@
+// fibonacci series
+
+#include <stdio.h>
+
+void main()
+{
+    int num1=0,num2=1,a;
+    int i,sum;
+    
+    printf("enter the how long you want to print:");
+    scanf("%d",&a);
+    
+    printf("%d ",num1);
+    printf("%d ",num2);
+    for(i=2;i<a;i++){
+        sum = num1+num2;
+        printf("%d ",sum);
+        
+        num1=num2;
+        num2=sum;
+    }
+}
