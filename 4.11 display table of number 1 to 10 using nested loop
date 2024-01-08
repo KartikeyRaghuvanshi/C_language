@@ -1,0 +1,17 @@
+Write a program in C to display table of number 1 to 10 using nested loop
+
+#include <stdio.h>
+
+int main() {
+    // Outer loop for numbers 1 to 10
+    for (int i = 1; i <= 10; i++) {
+        // Inner loop for multiples up to 10
+        for (int j = 1; j <= 10; j++) {
+            printf("%d * %d = %d\n", i, j, i * j);
+        }
+        // Move to the next line after printing each row
+        printf("\n");
+    }
+
+    return 0;
+}
